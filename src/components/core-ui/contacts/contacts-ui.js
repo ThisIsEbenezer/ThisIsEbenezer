@@ -159,6 +159,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
               href={`https://goo.gl/maps/bk9qXQgfqtHK931S8`}
               className='personal-details'
               target='_blank'
+              rel='noreferrer'
             >
             <div className='personal-details'>
               <div className={classes.detailsIcon}>
