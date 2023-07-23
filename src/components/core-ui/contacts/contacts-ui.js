@@ -3,7 +3,7 @@ import React, { useContext } from 'react';
 import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
 import { FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaMediumM, FaStackOverflow, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
-import { HiOutlineLocationMarker } from 'react-icons/hi';
+import { HiOutlineEmojiHappy, HiOutlineLocationMarker } from 'react-icons/hi';
 import { IoClose } from 'react-icons/io5';
 import { ThemeContext } from '../../../contexts/theme-context';
 import { contactsData } from '../../../data/contactsData';
@@ -169,6 +169,21 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 {contactsData.address}
               </p>
             </div>
+            </a>
+            <a
+              href={`https://goo.gl/maps/bk9qXQgfqtHK931S8`}
+              className='personal-details'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <div className='personal-details'>
+                <div className={classes.detailsIcon}>
+                  <HiOutlineEmojiHappy />
+                </div>
+                <p style={{ color: theme.tertiary }}>
+                  <img src='https://www.free-website-hit-counter.com/c.php?d=9&id=153294&s=5' border='0' alt='Hit Counter' />
+                </p>
+              </div>
             </a>
 
             <div className='socialmedia-icons'>
