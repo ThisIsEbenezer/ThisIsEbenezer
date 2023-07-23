@@ -3,7 +3,7 @@ export const experienceData = [
         id: 1,
         company: 'HTC Global Services Pvt Ltd',
         jobtitle: 'Programming Analyst',
-        startYear: 'Dev 2020',
+        startYear: 'Dec 2020',
         endYear: 'Present'
     },
     {
