@@ -94,7 +94,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#resume'
                                 smooth={true}
@@ -110,7 +110,7 @@ function NavbarUI({ theme, shortname, classes, handleDrawerOpen, handleDrawerClo
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <div className={classes.drawerItem} onClick={changeTheme}>
