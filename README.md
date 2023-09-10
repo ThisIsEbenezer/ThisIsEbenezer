@@ -1,6 +1,6 @@
 <br clear="both">
 
-#<h2 align="center">Hi 👋! My name is Samuel Ebenezer and I'm a Full-stack Developer, from Tiruchirappalli</h2>
+
 <h2 align="center">Hello! I am SAMUEL EBENEZER, a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving.</h2>
 ###
 
